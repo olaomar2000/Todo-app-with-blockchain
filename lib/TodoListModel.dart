@@ -17,10 +17,10 @@ class TodoListModel extends ChangeNotifier {
   bool isLoading = true;
   late int taskCount;
 
-  // e63642dd1e067c06637973d9ff7ec09175472d58b09332a322e22aac1b7afde4
+ 
 
   final String _privateKey =
-      "e63642dd1e067c06637973d9ff7ec09175472d58b09332a322e22aac1b7afde4";
+      "your privet key";
   String contractName = "TodoContract";
 
   late Web3Client _client;
